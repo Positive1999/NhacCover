@@ -1,0 +1,62 @@
+    /* navbar */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .navbar .navbar__logo{
+      
+    }
+    .navbar .navbar__logo img{
+       height: 100px;
+       width: 100px;
+       border-radius: 50%;
+    }
+    .navbar .navbar__search{
+        
+    }
+    .navbar .navbar__profile{
+        
+    }
+    /* navbar */
+
+    /* CSS cho video */
+    .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video-wrapper {
+        position: relative;
+        display: inline-block;
+        width: 300px;
+        margin: 10px;
+    }
+
+    .video-wrapper video {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .play-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+        color: white;
+        z-index: 1;
+    }
+
+    .video-time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 4px 8px;
+        font-size: 12px;
+    }
